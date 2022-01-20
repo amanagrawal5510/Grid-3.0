@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/525fd5b530.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        background-color: #e0e0e0;
+      }
+      .button {
+        border-radius: 14px;
+        background: #dbdbdb;
+        box-shadow: 8px 8px 14px #a9a9a9, -8px -8px 14px #ffffff;
+      }
+      .button:hover {
+        border-radius: 14px;
+        background: linear-gradient(145deg, #c5c5c5, #eaeaea);
+        box-shadow: 8px 8px 14px #a9a9a9, -8px -8px 14px #ffffff;
+      }
+      body .div {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 100px 200px 100px;
+      }
+      body .div h3 {
+        font-size: 2.5em;
+        font-family: sans-serif;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+        margin: 60px 0px;
+      }
+      .box {
+        height: auto;
+        width: 60%;
+        margin: 20px 10px;
+      }
+      .row a {
+        text-decoration: none;
+      }
+      .button {
+        height: 140px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      i {
+        font-size: 50px;
+        background: none;
+        color: black;
+      }
+      #button-tl {
+        transform: rotate(-45deg);
+      }
+      #button-tr {
+        transform: rotate(45deg);
+      }
+      #button-bl {
+        transform: rotate(45deg);
+      }
+      #button-br {
+        transform: rotate(-45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <h3>Direction</h3>
+      <div class="box" id="box-1">
+        <div class="row">
+          <a href="/G"
+            ><div class="button" id="button-tl">
+              <i class="fas fa-arrow-up"></i></div
+          ></a>
+          <a href="/F"
+            ><div class="button" id="button-t">
+              <i class="fas fa-arrow-up"></i></div
+          ></a>
+          <a href="/I"
+            ><div class="button" id="button-tr">
+              <i class="fas fa-arrow-up"></i></div
+          ></a>
+        </div>
+        <div class="row">
+          <a href="/L"
+            ><div class="button" id="button-l">
+              <i class="fas fa-arrow-left"></i></div
+          ></a>
+          <a href="/R"
+            ><div class="button" id="button-r">
+              <i class="fas fa-arrow-right"></i></div
+          ></a>
+        </div>
+        <div class="row">
+          <a href="/H"
+            ><div class="button" id="button-bl">
+              <i class="fas fa-arrow-down"></i></div
+          ></a>
+          <a href="/B"
+            ><div class="button" id="button-b">
+              <i class="fas fa-arrow-down"></i></div
+          ></a>
+          <a href="/J"
+            ><div class="button" id="button-br">
+              <i class="fas fa-arrow-down"></i></div
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="div">
+      <h3>CAR SPEED</h3>
+      <div class="box" id="box-1">
+        <div class="row">
+          <a href="/0"
+            ><div class="button" id="button-0"><i>400</i></div></a
+          >
+          <a href="/1"
+            ><div class="button" id="button-1"><i>470</i></div></a
+          >
+          <a href="/2"
+            ><div class="button" id="button-2"><i>540</i></div></a
+          >
+        </div>
+        <div class="row">
+          <a href="/3"
+            ><div class="button" id="button-3"><i>610</i></div></a
+          >
+          <a href="/4"
+            ><div class="button" id="button-4"><i>680</i></div></a
+          >
+          <a href="/5"
+            ><div class="button" id="button-5"><i>750</i></div></a
+          >
+        </div>
+        <div class="row">
+          <a href="/6"
+            ><div class="button" id="button-6"><i>820</i></div></a
+          >
+          <a href="/7"
+            ><div class="button" id="button-7"><i>890</i></div></a
+          >
+          <a href="/8"
+            ><div class="button" id="button-8"><i>960</i></div></a
+          >
+        </div>
+        <div class="row">
+          <a href="/9"
+            ><div class="button" id="button-9"><i>1023</i></div></a
+          >
+          <a href="/S"
+            ><div class="button" id="button-s"><i>STOP</i></div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
